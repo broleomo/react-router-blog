@@ -1,0 +1,15 @@
+.homepage-heading {
+  background-color: blue;
+}
+
+.nav-bar-header {
+  background-color: blue;
+}
+
+.form-fields {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  justify-content: center;
+  margin-left: 300px;
+}
