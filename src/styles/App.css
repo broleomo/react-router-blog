@@ -1,9 +1,35 @@
-.homepage-heading {
+.nav-bar-header {
   background-color: blue;
 }
 
-.nav-bar-header {
-  background-color: blue;
+.navbar{
+  display: flex;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #4CAA85;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.navlink {
+  margin: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.navlink :hover {
+  color: white;
+  background: green;
+}
+
+.blog-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px #08BDBD;
+}
+.blog-title {
+  font-size: 20px;
 }
 
 .form-fields {
